@@ -1,0 +1,206 @@
+.nav-1{
+    display: flex;
+}
+
+.nav-all{
+    display: flex;
+    
+}
+.nav-img1{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav-all{
+    margin-left: 53rem;
+    gap: 50px;
+    margin-right: 7.5rem;
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 7.5rem;
+}
+
+.nav-all a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-all li{
+    list-style: none;
+}
+
+.nav-1{
+    align-items: center;
+}
+
+.navlink:hover{
+    color: blueviolet;
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 8.25rem;
+    gap: 80px;
+}
+
+.banner-img-2{
+    margin-left: -27.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.banner-para{
+    font-size: 1rem;
+}
+
+.btn-primary{
+    height: 65px;
+    width: 210px;
+    background-color: #E02C6D;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 41px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
+/* logo section */
+
+.all-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    gap: 3.82rem;
+    width: 1300px;
+    height: 80px;
+    box-shadow: 0.3px 0.4px 0.3px 0px rgb(81, 80, 83);
+    margin: 100px 100px;
+    margin-left: 300px;
+}
+
+.img1{
+    width: 986px;
+    height: 39px;
+}
+
+
+/* Popular Collection */
+
+main{
+    width: 1100px;
+    height: 1500px;
+}
+.p-heading{
+    text-align: center;
+    align-items: center;
+}
+.all-card{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 400px;
+}
+
+.p-card{
+    box-shadow: 5px 5px 5px 2px rgb(167, 159, 159);
+    height: 476px;
+    padding: 20px;
+    
+}
+
+
+/* responsive small device */
+
+@media screen and (max-width:576px) {
+    .nav-all{
+        margin-left: 20px;
+        gap: 10px;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .nav-1{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    .banner-img-2{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: -440px;
+        margin-bottom: 40px;
+        width: 100%;
+        height: 60%;
+    }
+    .banner-img-1{
+        width: 100%;
+        height: 100%;
+    }
+    .banner{
+        margin: 20px;
+        text-align: center;
+        flex-direction: column-reverse;
+        
+    }
+    .banner-title{
+        font-size: 40px;
+    }
+    .all-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin: 10px;
+        margin-left: auto;
+        width: 80%;
+        height: 80px;
+        box-shadow: 0px 0px 0px 0px rgb(81, 80, 83);
+        margin-right: 40px;
+        
+    }
+    .img1{
+    width: 20%;
+    height: 20%;
+    }
+
+    .all-card{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 10px;
+}
+.p-card{
+    width: 100%;
+    height: 476px;
+    padding: 10px;
+    
+}
+main{
+    width: 0px;
+    height: 0px;
+}
+    
+}
+
