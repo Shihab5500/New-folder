@@ -118,10 +118,25 @@ main{
 }
 
 .p-card{
-    box-shadow: 5px 5px 5px 2px rgb(167, 159, 159);
+    box-shadow: 2px 8px 5px 2px rgb(239, 234, 234);
     height: 476px;
     padding: 20px;
-    
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.p-card:hover{
+    background-color: #E02C6D;
+    color: white;
 }
 
 
